@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  height: 70px;
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #263244;
+  background: #111827;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.status {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #172554;
+  color: #60a5fa;
+  font-size: 14px;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #263244;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.upload-box {
+  border: 2px dashed #475569;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-label {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 8px;
+  background: #1e293b;
+  cursor: pointer;
+}
+
+.file-label:hover {
+  background: #334155;
+}
+
+.file-name {
+  margin-top: 15px;
+  color: #94a3b8;
+}
+
+textarea {
+  width: 100%;
+  height: 130px;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #475569;
+  background: #0f172a;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+textarea:focus {
+  border-color: #6366f1;
+}
+
+.primary-btn {
+  border: none;
+  padding: 13px 25px;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #4f46e5;
+}
+
+.primary-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.message {
+  padding: 15px;
+  background: #1e293b;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.answer-card {
+  background: #111827;
+  border: 1px solid #6366f1;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.answer-card h2 {
+  margin-top: 0;
+}
+
+.answer-card p {
+  color: #cbd5e1;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
